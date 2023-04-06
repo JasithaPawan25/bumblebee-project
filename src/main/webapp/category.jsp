@@ -77,7 +77,7 @@
 		    <tr>
 		      <th scope="col">Category Code</th>
 		      <th scope="col">Category Name</th>
-		      <th scope="col">Category Price</th>
+		      <th scope="col">Category Description</th>
 		      <th scope="col">Delete</th>
 		    </tr>
 		  </thead>

@@ -75,7 +75,7 @@
 				  <input type="number" class="form-control" id="exampleFormControlInput1" name="brandCode" placeholder="Enter code...">
 				</div>			
 					<input type="hidden" name="type" value="specific">
-				<button type="submit" class="btn btn-success">Search Category</button>	
+				<button type="submit" class="btn btn-success">Search Brand</button>	
 			</div>
 		</form>
 		<br/>
@@ -83,19 +83,19 @@
 		<h3>Update Brand</h3>
 		<form method="post" action="brand" >
 			<div class="mb-3">
-				  <label for="exampleFormControlInput1" class="form-label">Category Code</label>
+				  <label for="exampleFormControlInput1" class="form-label">Brand Code</label>
 				  <input type="text" readonly="readonly" class="form-control" id="exampleFormControlInput1" name="brandCode" value="${brand.brandCode}">
 				</div>	
 			<div class="mb-3">
-				  <label for="exampleFormControlInput1" class="form-label">Category Name</label>
+				  <label for="exampleFormControlInput1" class="form-label">Brand Name</label>
 				  <input type="text" class="form-control" id="exampleFormControlInput1" name="brandName" value="${brand.brandName}" >
 				</div>
 				<div class="mb-3">
-				  <label for="exampleFormControlTextarea1" class="form-label">Category Description</label>
+				  <label for="exampleFormControlTextarea1" class="form-label">Brand Year</label>
 				  <input type="text" class="form-control" id="exampleFormControlInput1" name="brandYear" value="${brand.brandYear}"  >
 					<input type="hidden" name="type" value="update">
 				</div>
-				<button type="submit" class="btn btn-success">Update Category</button>	
+				<button type="submit" class="btn btn-success">Update Brand</button>	
 			</div>
 		</form>
 		</div>	

@@ -78,7 +78,7 @@
 				  <input type="text" class="form-control" id="exampleFormControlInput1" name="categoryDescription" placeholder="Good to...">
 					<input type="hidden" name="type" value="add">
 				</div>
-				<button type="submit" class="btn btn-success">Register Product</button>	
+				<button type="submit" class="btn btn-success">Register Category</button>	
 			</div>
 		</form>
 </body>

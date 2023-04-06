@@ -88,15 +88,15 @@
 				  <input type="text" readonly="readonly" class="form-control" id="exampleFormControlInput1" name="inventoryCode" value="${inventory.inventoryCode}">
 				</div>	
 			<div class="mb-3">
-				  <label for="exampleFormControlInput1" class="form-label">Category Name</label>
+				  <label for="exampleFormControlInput1" class="form-label">Inventory Name</label>
 				  <input type="text" class="form-control" id="exampleFormControlInput1" name="inventoryName" value="${inventory.inventoryName}" >
 				</div>
 				<div class="mb-3">
-				  <label for="exampleFormControlTextarea1" class="form-label">Category Description</label>
+				  <label for="exampleFormControlTextarea1" class="form-label">Inventory Quantity</label>
 				  <input type="text" class="form-control" id="exampleFormControlInput1" name="inventoryQty" value="${inventory.inventoryQty}"  >
 					<input type="hidden" name="type" value="update">
 				</div>
-				<button type="submit" class="btn btn-success">Update Category</button>	
+				<button type="submit" class="btn btn-success">Update Inventory</button>	
 			</div>
 		</form>
 		</div>	

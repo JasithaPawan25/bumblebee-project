@@ -74,7 +74,7 @@
 		    <tr>
 		      <th scope="col">Inventory Code</th>
 		      <th scope="col">Inventory Name</th>
-		      <th scope="col">Inventory Price</th>
+		      <th scope="col">Inventory Quantity</th>
 		      <th scope="col">Delete</th>
 		    </tr>
 		  </thead>

@@ -74,11 +74,11 @@
 				  <input type="text" class="form-control" id="exampleFormControlInput1" name="inventoryName" placeholder="^Y model">
 				</div>
 				<div class="mb-3">
-				  <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+				  <label for="exampleFormControlTextarea1" class="form-label">Quantity</label>
 				  <input type="text" class="form-control" id="exampleFormControlInput1" name="inventoryQty" placeholder="Good to...">
 					<input type="hidden" name="type" value="add">
 				</div>
-				<button type="submit" class="btn btn-success">Register Product</button>	
+				<button type="submit" class="btn btn-success">Register Inventory</button>	
 			</div>
 		</form>
 </div>
